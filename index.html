@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Places I've Visited</title>
+  <link rel="stylesheet" href="styles.css"
+</head>
+<body>
+
+  <h1>Places I've Visited</h1>
+
+  <form id="place-form">
+    <label>
+      Location:
+      <input type="text" id="location" required>
+    </label><br><br>
+
+    <label>
+      Landmarks (comma separated):
+      <input type="text" id="landmarks">
+    </label><br><br>
+
+    <label>
+      Time of year:
+      <input type="text" id="timeOfYear">
+    </label><br><br>
+
+    <label>
+      Notes:
+      <textarea id="notes"></textarea>
+    </label><br><br>
+
+    <button type="submit">Add Place</button>
+  </form>
+
+  <h2>My Places</h2>
+  <ul id="places-list"></ul>
+
+  <div id="place-details"></div>
+
+  <script src="js/place.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
