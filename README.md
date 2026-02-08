@@ -31,6 +31,23 @@ https://natashazenah.github.io/Code-Along/
 No additional setup is required.
 
 ---
+## Tests
+
+### Describe: Place()
+
+Test: It should create a Place object with the correct properties.
+
+Code:
+```js
+const place = new Place(
+  "London",
+  ["London Eye", "London Bridge"],
+  "Summer",
+  "Great environment"
+);
+```
+
+---
 ## License
 MIT License
 
