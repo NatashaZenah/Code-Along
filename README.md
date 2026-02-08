@@ -12,8 +12,7 @@ The project was built to practice using JavaScript constructors, prototypes, and
 ---
 
 ## Live Link
-
-
+https://natashazenah.github.io/Code-Along/
 ---
 ## Technologies Used
 
